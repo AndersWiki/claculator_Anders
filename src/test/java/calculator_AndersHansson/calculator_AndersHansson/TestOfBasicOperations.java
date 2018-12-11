@@ -233,7 +233,7 @@ public class TestOfBasicOperations {
 			variabel2=0;
 			svar = variabel1 / variabel2;
 			
-			LOG.info("Testing the method addition with: "+ variabel1 +" and " + variabel2);
+			LOG.info("Testing the method division with: "+ variabel1 +" and " + variabel2);
 			assertEquals(Math.round(basic.division(variabel1, variabel2)), Math.round(svar),0.1);
 			
 		}
