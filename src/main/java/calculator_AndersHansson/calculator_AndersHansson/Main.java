@@ -8,6 +8,7 @@ public class Main {
 		BasicOperations basic=new BasicOperations();
 		AdvancedOperations advanced=new AdvancedOperations();
 		double variabel1;
+		
 		double variabel2;
 		int val;
 		Scanner in=new Scanner(System.in);
