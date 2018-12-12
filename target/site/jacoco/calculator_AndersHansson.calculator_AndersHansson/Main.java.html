@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">calculator-AndersHansson</a> &gt; <a href="index.source.html" class="el_package">calculator_AndersHansson.calculator_AndersHansson</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package calculator_AndersHansson.calculator_AndersHansson;
+
+import java.util.Scanner;
+
+<span class="nc" id="L5">public class Main {</span>
+
+	public static void main(String[] args) {
+<span class="nc" id="L8">		BasicOperations basic=new BasicOperations();</span>
+<span class="nc" id="L9">		AdvancedOperations advanced=new AdvancedOperations();</span>
+<span class="nc" id="L10">		double variabel1=0;</span>
+<span class="nc" id="L11">		double variabel2=0;</span>
+<span class="nc" id="L12">		int val = 0;</span>
+<span class="nc" id="L13">		Scanner in=new Scanner(System.in);</span>
+<span class="nc" id="L14">		System.out.println(&quot;Vad är första siffran?&quot;);</span>
+<span class="nc" id="L15">		String firstnumber=in.next();</span>
+		try{
+<span class="nc" id="L17">		variabel1=Double.parseDouble(firstnumber);</span>
+		}
+<span class="nc" id="L19">		catch (Exception e){</span>
+<span class="nc" id="L20">			System.out.println(&quot;Använd bara siffror. Använd . istället för , vid decimaltal&quot;);</span>
+<span class="nc" id="L21">			in.close();</span>
+<span class="nc" id="L22">			System.exit(0);</span>
+<span class="nc" id="L23">		}</span>
+<span class="nc" id="L24">		System.out.println(&quot;Vilket räknesätt vill du använda?\n&quot;</span>
+				+ &quot;Tryck 1 för plus. 2 för minus. 3 för multiplikation. 4 för division \n&quot;
+				+ &quot;5 för rotenur. 6 för modulus. 7 för inversen. 8 för Cos. 9 för Sin. 10 för Tan. 11 för upphöjt till.&quot;);
+<span class="nc" id="L27">		String raknesatt=in.next();</span>
+		try{
+<span class="nc" id="L29">		val=Integer.parseInt(raknesatt);</span>
+		}
+<span class="nc" id="L31">		catch(Exception e){</span>
+<span class="nc" id="L32">			System.out.println(&quot;Använd bara siffror 1-11&quot;);</span>
+<span class="nc" id="L33">			in.close();</span>
+<span class="nc" id="L34">			System.exit(0);</span>
+<span class="nc" id="L35">		}</span>
+<span class="nc bnc" id="L36" title="All 12 branches missed.">		if((val==1)||(val==2)||(val==3)||(val==4)||(val==6)||(val==11)){</span>
+<span class="nc" id="L37">			System.out.println(&quot;Vad är andra siffran?&quot;);</span>
+<span class="nc" id="L38">			String secondnumber=in.next();</span>
+			try{
+<span class="nc" id="L40">			variabel2=Double.parseDouble(secondnumber);</span>
+			}
+<span class="nc" id="L42">			catch(Exception e){</span>
+<span class="nc" id="L43">				System.out.println(&quot;Använd bara siffror. Använd . istället för , vid decimaltal&quot;);</span>
+<span class="nc" id="L44">				in.close();</span>
+<span class="nc" id="L45">				System.exit(0);</span>
+<span class="nc" id="L46">			}</span>
+		}
+<span class="nc bnc" id="L48" title="All 2 branches missed.">		if (val==1){</span>
+<span class="nc" id="L49">			System.out.println(&quot;Svar &quot;+basic.addition(variabel1, variabel2));</span>
+		}
+<span class="nc bnc" id="L51" title="All 2 branches missed.">		else if(val==2){</span>
+<span class="nc" id="L52">			System.out.println(&quot;Svar &quot;+basic.subtraction(variabel1, variabel2));	</span>
+		}
+<span class="nc bnc" id="L54" title="All 2 branches missed.">		else if(val==3){</span>
+<span class="nc" id="L55">			System.out.println(&quot;Svar &quot;+basic.multiplication(variabel1, variabel2));	</span>
+		}
+<span class="nc bnc" id="L57" title="All 2 branches missed.">		else if(val==4){</span>
+<span class="nc" id="L58">			System.out.println(&quot;Svar &quot;+basic.division(variabel1, variabel2));	</span>
+		}
+<span class="nc bnc" id="L60" title="All 2 branches missed.">		else if(val==5){</span>
+<span class="nc" id="L61">			System.out.println(&quot;Svar &quot;+advanced.squrt(variabel1));</span>
+		}
+<span class="nc bnc" id="L63" title="All 2 branches missed.">		else if(val==6){</span>
+<span class="nc" id="L64">			System.out.println(&quot;Svar &quot;+advanced.modelus(variabel1, variabel2));	</span>
+		}
+<span class="nc bnc" id="L66" title="All 2 branches missed.">		else if(val==7){</span>
+<span class="nc" id="L67">			System.out.println(&quot;Svar &quot;+advanced.inverse(variabel1));</span>
+		}
+<span class="nc bnc" id="L69" title="All 2 branches missed.">		else if(val==8){</span>
+<span class="nc" id="L70">			System.out.println(&quot;Svar &quot;+advanced.cos(variabel1));</span>
+		}
+<span class="nc bnc" id="L72" title="All 2 branches missed.">		else if(val==9){</span>
+<span class="nc" id="L73">			System.out.println(&quot;Svar &quot;+advanced.sin(variabel1));</span>
+		}
+<span class="nc bnc" id="L75" title="All 2 branches missed.">		else if(val==10){</span>
+<span class="nc" id="L76">			System.out.println(&quot;Svar &quot;+advanced.tan(variabel1));</span>
+		}
+<span class="nc bnc" id="L78" title="All 2 branches missed.">		else if(val==11){</span>
+<span class="nc" id="L79">			System.out.println(&quot;Svar &quot;+advanced.power(variabel1, variabel2));	</span>
+		}
+		else{
+<span class="nc" id="L82">			System.out.println(&quot;Läs användarinstruktionerna bättre&quot;);</span>
+		}
+		
+<span class="nc" id="L85">		in.close();</span>
+<span class="nc" id="L86">		System.exit(0);</span>
+
+<span class="nc" id="L88">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

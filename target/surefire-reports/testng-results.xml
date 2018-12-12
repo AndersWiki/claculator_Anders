@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="455" started-at="2018-12-12T13:52:52Z" finished-at="2018-12-12T13:52:53Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="455" started-at="2018-12-12T13:52:52Z" finished-at="2018-12-12T13:52:53Z">
+      <class name="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations">
+        <test-method status="PASS" signature="testAdditionPositiveNumbers()[pri:0, instance:testAdditionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testAdditionPositiveNumbers" duration-ms="7" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionPositiveNumbers -->
+        <test-method status="PASS" signature="testMultiplicationNegativeNumbers()[pri:0, instance:testMultiplicationNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testMultiplicationNegativeNumbers" duration-ms="5" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationNegativeNumbers -->
+        <test-method status="PASS" signature="testAdditionNegativeNumbers()[pri:0, instance:testAdditionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testAdditionNegativeNumbers" duration-ms="4" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionNegativeNumbers -->
+        <test-method status="PASS" signature="testMultiplicationZerosNumbers()[pri:0, instance:testMultiplicationZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testMultiplicationZerosNumbers" duration-ms="8" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationZerosNumbers -->
+        <test-method status="PASS" signature="testDivisionZerosNumbers()[pri:0, instance:testDivisionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testDivisionZerosNumbers" duration-ms="9" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionZerosNumbers -->
+        <test-method status="PASS" signature="testSubtractionPositiveNumbers()[pri:0, instance:testSubtractionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testSubtractionPositiveNumbers" duration-ms="4" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionPositiveNumbers -->
+        <test-method status="PASS" signature="testDivisionPositiveNumbers()[pri:0, instance:testDivisionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testDivisionPositiveNumbers" duration-ms="4" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionPositiveNumbers -->
+        <test-method status="PASS" signature="testSubtractionNegativeNumbers()[pri:0, instance:testSubtractionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testSubtractionNegativeNumbers" duration-ms="4" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionNegativeNumbers -->
+        <test-method status="PASS" signature="testDivisionNegativeNumbers()[pri:0, instance:testDivisionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testDivisionNegativeNumbers" duration-ms="5" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionNegativeNumbers -->
+        <test-method status="PASS" signature="testAdditionZerosNumbers()[pri:0, instance:testAdditionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testAdditionZerosNumbers" duration-ms="9" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionZerosNumbers -->
+        <test-method status="PASS" signature="testSubtractionZerosNumbers()[pri:0, instance:testSubtractionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testSubtractionZerosNumbers" duration-ms="11" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionZerosNumbers -->
+        <test-method status="PASS" signature="testMultiplicationPositiveNumbers()[pri:0, instance:testMultiplicationPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)]" name="testMultiplicationPositiveNumbers" duration-ms="5" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationPositiveNumbers -->
+      </class> <!-- calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations -->
+      <class name="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations">
+        <test-method status="PASS" signature="testInverseNegativeNumbers()[pri:0, instance:testInverseNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testInverseNegativeNumbers" duration-ms="44" started-at="2018-12-12T14:52:52Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverseNegativeNumbers -->
+        <test-method status="PASS" signature="testSinZerosNumbers()[pri:0, instance:testSinZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSinZerosNumbers" duration-ms="22" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinZerosNumbers -->
+        <test-method status="PASS" signature="testSqurtPositiveNumbers()[pri:0, instance:testSqurtPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSqurtPositiveNumbers" duration-ms="18" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqurtPositiveNumbers -->
+        <test-method status="PASS" signature="testModelusPositiveNumbers()[pri:0, instance:testModelusPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testModelusPositiveNumbers" duration-ms="15" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelusPositiveNumbers -->
+        <test-method status="PASS" signature="testSqurtNegativeNumbers()[pri:0, instance:testSqurtNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSqurtNegativeNumbers" duration-ms="10" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqurtNegativeNumbers -->
+        <test-method status="PASS" signature="testModelusNegativeNumbers()[pri:0, instance:testModelusNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testModelusNegativeNumbers" duration-ms="15" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelusNegativeNumbers -->
+        <test-method status="PASS" signature="testPowerZerosNumbers()[pri:0, instance:testPowerZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testPowerZerosNumbers" duration-ms="32" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerZerosNumbers -->
+        <test-method status="PASS" signature="testTanZerosNumbers()[pri:0, instance:testTanZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testTanZerosNumbers" duration-ms="10" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTanZerosNumbers -->
+        <test-method status="PASS" signature="testCosZerosNumbers()[pri:0, instance:testCosZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testCosZerosNumbers" duration-ms="8" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosZerosNumbers -->
+        <test-method status="PASS" signature="testPowerPositiveNumbers()[pri:0, instance:testPowerPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testPowerPositiveNumbers" duration-ms="9" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerPositiveNumbers -->
+        <test-method status="PASS" signature="testPowerNegativeNumbers()[pri:0, instance:testPowerNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testPowerNegativeNumbers" duration-ms="8" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerNegativeNumbers -->
+        <test-method status="PASS" signature="testSqurtZerosNumbers()[pri:0, instance:testSqurtZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSqurtZerosNumbers" duration-ms="7" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqurtZerosNumbers -->
+        <test-method status="PASS" signature="testSinPositiveNumbers()[pri:0, instance:testSinPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSinPositiveNumbers" duration-ms="7" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinPositiveNumbers -->
+        <test-method status="PASS" signature="testCosPositiveNumbers()[pri:0, instance:testCosPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testCosPositiveNumbers" duration-ms="7" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosPositiveNumbers -->
+        <test-method status="PASS" signature="testSinNegativeNumbers()[pri:0, instance:testSinNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testSinNegativeNumbers" duration-ms="8" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinNegativeNumbers -->
+        <test-method status="PASS" signature="testCosNegativeNumbers()[pri:0, instance:testCosNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testCosNegativeNumbers" duration-ms="6" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosNegativeNumbers -->
+        <test-method status="PASS" signature="testInverseZerosNumbers()[pri:0, instance:testInverseZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testInverseZerosNumbers" duration-ms="6" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverseZerosNumbers -->
+        <test-method status="PASS" signature="testModelusZerosNumbers()[pri:0, instance:testModelusZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testModelusZerosNumbers" duration-ms="13" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelusZerosNumbers -->
+        <test-method status="PASS" signature="testTanPositiveNumbers()[pri:0, instance:testTanPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testTanPositiveNumbers" duration-ms="6" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTanPositiveNumbers -->
+        <test-method status="PASS" signature="testTanNegativeNumbers()[pri:0, instance:testTanNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testTanNegativeNumbers" duration-ms="6" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTanNegativeNumbers -->
+        <test-method status="PASS" signature="testInversePositiveNumbers()[pri:0, instance:testInversePositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)]" name="testInversePositiveNumbers" duration-ms="9" started-at="2018-12-12T14:52:53Z" finished-at="2018-12-12T14:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInversePositiveNumbers -->
+      </class> <!-- calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

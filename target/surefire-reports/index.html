@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testAdditionNegativeNumbers">testAdditionNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testAdditionPositiveNumbers">testAdditionPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testAdditionZerosNumbers">testAdditionZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testCosNegativeNumbers">testCosNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testCosPositiveNumbers">testCosPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testCosZerosNumbers">testCosZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testDivisionNegativeNumbers">testDivisionNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testDivisionPositiveNumbers">testDivisionPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testDivisionZerosNumbers">testDivisionZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testInverseNegativeNumbers">testInverseNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testInversePositiveNumbers">testInversePositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testInverseZerosNumbers">testInverseZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testModelusNegativeNumbers">testModelusNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testModelusPositiveNumbers">testModelusPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testModelusZerosNumbers">testModelusZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testMultiplicationNegativeNumbers">testMultiplicationNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testMultiplicationPositiveNumbers">testMultiplicationPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testMultiplicationZerosNumbers">testMultiplicationZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testPowerNegativeNumbers">testPowerNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testPowerPositiveNumbers">testPowerPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testPowerZerosNumbers">testPowerZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSinNegativeNumbers">testSinNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSinPositiveNumbers">testSinPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSinZerosNumbers">testSinZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSqurtNegativeNumbers">testSqurtNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSqurtPositiveNumbers">testSqurtPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testSqurtZerosNumbers">testSqurtZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testSubtractionNegativeNumbers">testSubtractionNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testSubtractionPositiveNumbers">testSubtractionPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations" hash-for-method="testSubtractionZerosNumbers">testSubtractionZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testTanNegativeNumbers">testTanNegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testTanPositiveNumbers">testTanPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations" hash-for-method="testTanZerosNumbers">testTanZerosNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionNegativeNumbers">
+                  </a> <!-- testAdditionNegativeNumbers -->
+                  <span class="method-name">testAdditionNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionPositiveNumbers">
+                  </a> <!-- testAdditionPositiveNumbers -->
+                  <span class="method-name">testAdditionPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionZerosNumbers">
+                  </a> <!-- testAdditionZerosNumbers -->
+                  <span class="method-name">testAdditionZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivisionNegativeNumbers">
+                  </a> <!-- testDivisionNegativeNumbers -->
+                  <span class="method-name">testDivisionNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivisionPositiveNumbers">
+                  </a> <!-- testDivisionPositiveNumbers -->
+                  <span class="method-name">testDivisionPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivisionZerosNumbers">
+                  </a> <!-- testDivisionZerosNumbers -->
+                  <span class="method-name">testDivisionZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplicationNegativeNumbers">
+                  </a> <!-- testMultiplicationNegativeNumbers -->
+                  <span class="method-name">testMultiplicationNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplicationPositiveNumbers">
+                  </a> <!-- testMultiplicationPositiveNumbers -->
+                  <span class="method-name">testMultiplicationPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplicationZerosNumbers">
+                  </a> <!-- testMultiplicationZerosNumbers -->
+                  <span class="method-name">testMultiplicationZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubtractionNegativeNumbers">
+                  </a> <!-- testSubtractionNegativeNumbers -->
+                  <span class="method-name">testSubtractionNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubtractionPositiveNumbers">
+                  </a> <!-- testSubtractionPositiveNumbers -->
+                  <span class="method-name">testSubtractionPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubtractionZerosNumbers">
+                  </a> <!-- testSubtractionZerosNumbers -->
+                  <span class="method-name">testSubtractionZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCosNegativeNumbers">
+                  </a> <!-- testCosNegativeNumbers -->
+                  <span class="method-name">testCosNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCosPositiveNumbers">
+                  </a> <!-- testCosPositiveNumbers -->
+                  <span class="method-name">testCosPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCosZerosNumbers">
+                  </a> <!-- testCosZerosNumbers -->
+                  <span class="method-name">testCosZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInverseNegativeNumbers">
+                  </a> <!-- testInverseNegativeNumbers -->
+                  <span class="method-name">testInverseNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInversePositiveNumbers">
+                  </a> <!-- testInversePositiveNumbers -->
+                  <span class="method-name">testInversePositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInverseZerosNumbers">
+                  </a> <!-- testInverseZerosNumbers -->
+                  <span class="method-name">testInverseZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testModelusNegativeNumbers">
+                  </a> <!-- testModelusNegativeNumbers -->
+                  <span class="method-name">testModelusNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testModelusPositiveNumbers">
+                  </a> <!-- testModelusPositiveNumbers -->
+                  <span class="method-name">testModelusPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testModelusZerosNumbers">
+                  </a> <!-- testModelusZerosNumbers -->
+                  <span class="method-name">testModelusZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPowerNegativeNumbers">
+                  </a> <!-- testPowerNegativeNumbers -->
+                  <span class="method-name">testPowerNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPowerPositiveNumbers">
+                  </a> <!-- testPowerPositiveNumbers -->
+                  <span class="method-name">testPowerPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPowerZerosNumbers">
+                  </a> <!-- testPowerZerosNumbers -->
+                  <span class="method-name">testPowerZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSinNegativeNumbers">
+                  </a> <!-- testSinNegativeNumbers -->
+                  <span class="method-name">testSinNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSinPositiveNumbers">
+                  </a> <!-- testSinPositiveNumbers -->
+                  <span class="method-name">testSinPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSinZerosNumbers">
+                  </a> <!-- testSinZerosNumbers -->
+                  <span class="method-name">testSinZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqurtNegativeNumbers">
+                  </a> <!-- testSqurtNegativeNumbers -->
+                  <span class="method-name">testSqurtNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqurtPositiveNumbers">
+                  </a> <!-- testSqurtPositiveNumbers -->
+                  <span class="method-name">testSqurtPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqurtZerosNumbers">
+                  </a> <!-- testSqurtZerosNumbers -->
+                  <span class="method-name">testSqurtZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTanNegativeNumbers">
+                  </a> <!-- testTanNegativeNumbers -->
+                  <span class="method-name">testTanNegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTanPositiveNumbers">
+                  </a> <!-- testTanPositiveNumbers -->
+                  <span class="method-name">testTanPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTanZerosNumbers">
+                  </a> <!-- testTanZerosNumbers -->
+                  <span class="method-name">testTanZerosNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; junit=&quot;true&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations&quot;/&gt;
+      &lt;class name=&quot;calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testInverseNegativeNumbers')
+data.setCell(0, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(0, 3, 44);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPowerZerosNumbers')
+data.setCell(1, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(1, 3, 32);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSinZerosNumbers')
+data.setCell(2, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(2, 3, 22);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSqurtPositiveNumbers')
+data.setCell(3, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(3, 3, 18);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testModelusPositiveNumbers')
+data.setCell(4, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(4, 3, 15);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testModelusNegativeNumbers')
+data.setCell(5, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(5, 3, 15);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testModelusZerosNumbers')
+data.setCell(6, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(6, 3, 13);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSubtractionZerosNumbers')
+data.setCell(7, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(7, 3, 11);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTanZerosNumbers')
+data.setCell(8, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(8, 3, 10);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSqurtNegativeNumbers')
+data.setCell(9, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(9, 3, 10);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAdditionZerosNumbers')
+data.setCell(10, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDivisionZerosNumbers')
+data.setCell(11, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(11, 3, 9);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPowerPositiveNumbers')
+data.setCell(12, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(12, 3, 9);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInversePositiveNumbers')
+data.setCell(13, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSinNegativeNumbers')
+data.setCell(14, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPowerNegativeNumbers')
+data.setCell(15, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(15, 3, 8);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMultiplicationZerosNumbers')
+data.setCell(16, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(16, 3, 8);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCosZerosNumbers')
+data.setCell(17, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSqurtZerosNumbers')
+data.setCell(18, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(18, 3, 7);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testAdditionPositiveNumbers')
+data.setCell(19, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(19, 3, 7);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCosPositiveNumbers')
+data.setCell(20, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(20, 3, 7);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSinPositiveNumbers')
+data.setCell(21, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(21, 3, 7);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testTanPositiveNumbers')
+data.setCell(22, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(22, 3, 6);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testTanNegativeNumbers')
+data.setCell(23, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(23, 3, 6);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCosNegativeNumbers')
+data.setCell(24, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(24, 3, 6);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testInverseZerosNumbers')
+data.setCell(25, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations')
+data.setCell(25, 3, 6);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMultiplicationNegativeNumbers')
+data.setCell(26, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(26, 3, 5);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDivisionNegativeNumbers')
+data.setCell(27, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(27, 3, 5);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMultiplicationPositiveNumbers')
+data.setCell(28, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(28, 3, 5);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testDivisionPositiveNumbers')
+data.setCell(29, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(29, 3, 4);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSubtractionNegativeNumbers')
+data.setCell(30, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(30, 3, 4);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSubtractionPositiveNumbers')
+data.setCell(31, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(31, 3, 4);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testAdditionNegativeNumbers')
+data.setCell(32, 2, 'calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations')
+data.setCell(32, 3, 4);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 341 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInverseNegativeNumbers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSinZerosNumbers</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqurtPositiveNumbers</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testModelusPositiveNumbers</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqurtNegativeNumbers</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testModelusNegativeNumbers</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPowerZerosNumbers</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTanZerosNumbers</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCosZerosNumbers</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPowerPositiveNumbers</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPowerNegativeNumbers</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSqurtZerosNumbers</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSinPositiveNumbers</span>
+                <span class="method-start">205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCosPositiveNumbers</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSinNegativeNumbers</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCosNegativeNumbers</span>
+                <span class="method-start">228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInverseZerosNumbers</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testModelusZerosNumbers</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTanPositiveNumbers</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTanNegativeNumbers</span>
+                <span class="method-start">259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInversePositiveNumbers</span>
+                <span class="method-start">266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAdditionPositiveNumbers</span>
+                <span class="method-start">280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplicationNegativeNumbers</span>
+                <span class="method-start">287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdditionNegativeNumbers</span>
+                <span class="method-start">293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplicationZerosNumbers</span>
+                <span class="method-start">297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivisionZerosNumbers</span>
+                <span class="method-start">305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubtractionPositiveNumbers</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivisionPositiveNumbers</span>
+                <span class="method-start">318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubtractionNegativeNumbers</span>
+                <span class="method-start">322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivisionNegativeNumbers</span>
+                <span class="method-start">326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdditionZerosNumbers</span>
+                <span class="method-start">331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubtractionZerosNumbers</span>
+                <span class="method-start">340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplicationPositiveNumbers</span>
+                <span class="method-start">351 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

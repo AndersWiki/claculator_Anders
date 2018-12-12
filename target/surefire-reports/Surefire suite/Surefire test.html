@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 12 14:52:52 CET 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (455 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testAdditionNegativeNumbers()'><b>testAdditionNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testAdditionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testAdditionPositiveNumbers()'><b>testAdditionPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testAdditionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testAdditionZerosNumbers()'><b>testAdditionZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testAdditionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testCosNegativeNumbers()'><b>testCosNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testCosNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testCosPositiveNumbers()'><b>testCosPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testCosPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testCosZerosNumbers()'><b>testCosZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testCosZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testDivisionNegativeNumbers()'><b>testDivisionNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testDivisionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testDivisionPositiveNumbers()'><b>testDivisionPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testDivisionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testDivisionZerosNumbers()'><b>testDivisionZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testDivisionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testInverseNegativeNumbers()'><b>testInverseNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testInverseNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testInversePositiveNumbers()'><b>testInversePositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testInversePositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testInverseZerosNumbers()'><b>testInverseZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testInverseZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testModelusNegativeNumbers()'><b>testModelusNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testModelusNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testModelusPositiveNumbers()'><b>testModelusPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testModelusPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testModelusZerosNumbers()'><b>testModelusZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testModelusZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testMultiplicationNegativeNumbers()'><b>testMultiplicationNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testMultiplicationPositiveNumbers()'><b>testMultiplicationPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testMultiplicationZerosNumbers()'><b>testMultiplicationZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testPowerNegativeNumbers()'><b>testPowerNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testPowerNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testPowerPositiveNumbers()'><b>testPowerPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testPowerPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testPowerZerosNumbers()'><b>testPowerZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testPowerZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSinNegativeNumbers()'><b>testSinNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSinNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSinPositiveNumbers()'><b>testSinPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSinPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSinZerosNumbers()'><b>testSinZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSinZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSqurtNegativeNumbers()'><b>testSqurtNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSqurtNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSqurtPositiveNumbers()'><b>testSqurtPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSqurtPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testSqurtZerosNumbers()'><b>testSqurtZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testSqurtZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testSubtractionNegativeNumbers()'><b>testSubtractionNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testSubtractionPositiveNumbers()'><b>testSubtractionPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations.testSubtractionZerosNumbers()'><b>testSubtractionZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfBasicOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testTanNegativeNumbers()'><b>testTanNegativeNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testTanNegativeNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testTanPositiveNumbers()'><b>testTanPositiveNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testTanPositiveNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+<tr>
+<td title='calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations.testTanZerosNumbers()'><b>testTanZerosNumbers</b><br>Test class: calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations</td>
+<td></td>
+<td>0</td>
+<td>testTanZerosNumbers(calculator_AndersHansson.calculator_AndersHansson.TestOfAdvancedOperations)</td></tr>
+</table><p>
+</body>
+</html>
