@@ -1,7 +1,13 @@
 package calculator_AndersHansson.calculator_AndersHansson;
 
 import java.util.Scanner;
-
+/**
+ *  Main lets you do a calcualtion.
+ * <p>
+ * @author      Anders Hansson
+ * @version     1.0 
+ * @since   2018-12-13       
+ */
 public class Main {
 
 	public static void main(String[] args) {
@@ -55,7 +61,12 @@ public class Main {
 			System.out.println("Svar "+basic.multiplication(variabel1, variabel2));	
 		}
 		else if(val==4){
-			System.out.println("Svar "+basic.division(variabel1, variabel2));	
+			if(variabel2==0){
+				System.out.println("Dela inte på noll det går mot oändligheten");
+			}
+			else{
+			System.out.println("Svar "+basic.division(variabel1, variabel2));
+			}
 		}
 		else if(val==5){
 			System.out.println("Svar "+advanced.squrt(variabel1));

@@ -7,7 +7,9 @@ import java.util.Random;
 import java.util.logging.Logger;
 
 import org.junit.Test;
-
+/**
+ * basic unit testing for AdvancedOperations
+ */
 public class TestOfAdvancedOperations {
 	private static final Logger LOG = Logger.getLogger(AdvancedOperations.class.getName());
 	AdvancedOperations advanced=new AdvancedOperations();

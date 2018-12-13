@@ -7,7 +7,9 @@ import java.util.Random;
 import java.util.logging.Logger;
 
 import org.junit.Test;
-
+/**
+ * Basic unit testing for BasicOperations
+ */
 public class TestOfBasicOperations {
 	private static final Logger LOG = Logger.getLogger(BasicOperations.class.getName());
 	BasicOperations basic = new BasicOperations();
